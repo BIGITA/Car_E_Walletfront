@@ -19,7 +19,7 @@ export default function Login() {
         try{
            const res = await fetch('/login',{
                method:"POST",
-               headrs:{
+               headers:{
                    "Content-Type":"application/json"
                },
                body: JSON.stringify({
